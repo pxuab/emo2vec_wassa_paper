@@ -1,0 +1,10 @@
+min_vocab_frequency : 2
+training_dir : ./datasets/clean_hashtag/tokenized/
+num_epochs : 6
+embedding_size : 100
+batch_size : 16
+learning_rate : 0.001
+num_filters : 1024
+filter_sizes : 7,5, 3, 1
+dropout : 0.0
+db : hashtag
